@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./css/carrousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Padre -->
+    <section id="carousel" class="seccion-tarjetas ancho margen">
+        <div class="carrusel-info">
+            <h1>OUR TEAM</h1>
+            <span>PROFESSIONAL PC REPAIR TEAM</span>
+            <p>Since our establishment, we have gathered a team of dedicate PC repair profesionals</p>
+
+            <div class="cont-btn slide-buttons">
+                <a id="back-button" class="arrow back" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                <a id="forward-button" class="arrow forward" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+
+        <!-- Hijo -->
+        <div id="slide-container" class="cont-tarjeta ancho">
+            <article data-slideIndex="0" class="slide">
+                <figure><img src="./img/foto1.jpg" alt=""></figure>
+                <h3>John Tuf</h3>
+                <span>Field Technician</span>
+            </article>
+
+            <article data-slideIndex="1" class="tarjeta slide">
+                <figure><img src="./img/foto5.jpg" alt=""></figure>
+                <h3>Frank McMillan</h3>
+                <span>General Manager</span>
+            </article>
+            <article data-slideIndex="2" class="tarjeta slide">
+                <figure><img src="./img/foto3.jpg" alt=""></figure>
+                <h3>John Smith</h3>
+                <span>Field Technician</span>
+            </article>
+            <article data-slideIndex="3" class="tarjeta slide">
+                <figure><img src="./img/foto4.jpg" alt=""></figure>
+                <h3>John Titor</h3>
+                <span>Field Technician</span>
+            </article>
+            <article data-slideIndex="4" class="tarjeta slide">
+                <figure><img src="./img/foto5.jpg" alt=""></figure>
+                <h3>Michael Spencer</h3>
+                <span>Field Technician</span>
+            </article>
+        </div>
+
+
+    </section>
+
+    <script src="./js/carrousel.js"></script>
+</body>
+
+</html>
