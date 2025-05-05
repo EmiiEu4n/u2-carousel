@@ -160,6 +160,9 @@ html {
 }
 
 @media (width <= 768px) {
+  #slide-container {
+    overflow-x: scroll;
+  }
   .slide {
     min-width: calc((100% - 10px) / 2);
   }
